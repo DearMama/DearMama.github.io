@@ -22,7 +22,7 @@ Features a "Premium Modern" aesthetic with dark mode, glassmorphism, and dynamic
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/catsika/portfolio.git
+   git clone (https://github.com/DearMama/DearMama.github.io)
    ```
 
 2. Open `index.html` in your browser.
@@ -42,4 +42,4 @@ Edit `data/content.json` to update your personal information, projects, and skil
 
 ## License
 
-[MIT](LICENSE) © 2025 Clifford Atsika
+[MIT](LICENSE) © 2026 Jeffery Adamtey
