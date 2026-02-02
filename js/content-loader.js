@@ -79,6 +79,38 @@ function populateHero() {
     if (heroLede) heroLede.innerHTML = hero.lede;
 }
 
+// call this after you load the content JSON (e.g. `content` variable)
+function renderHeroMeta(hero) {
+  const container = document.querySelector('.hero-meta');
+  if (!container || !hero?.meta) return;
+
+  container.innerHTML = ''; // clear any static markup
+
+  hero.meta.forEach((item) => {
+    const group = document.createElement('div');
+    group.className = 'meta-item';
+
+    const label = document.createElement('span');
+    label.className = 'meta-label';
+    label.textContent = item.label;
+    group.appendChild(label);
+
+    // render values as rows
+    const values = Array.isArray(item.value) ? item.value : [item.value];
+    values.forEach((v) => {
+      const val = document.createElement('span');
+      val.className = 'meta-value';
+      val.textContent = v;
+      group.appendChild(val);
+    });
+
+    container.appendChild(group);
+  });
+}
+
+// Example: call renderHeroMeta after loading JSON
+// renderHeroMeta(content.hero);
+
 // Populate About Section
 function populateAbout() {
     const { about } = contentData;
