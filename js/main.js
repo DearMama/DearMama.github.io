@@ -615,6 +615,69 @@ function throttle(func, limit) {
         }
     };
 }
+  // ===========================
+// Load content.json + Render Hero Meta (No commas, row layout)
+// ===========================
+
+async function loadContent() {
+    try {
+        const res = await fetch('content.json');
+        if (!res.ok) throw new Error('Failed to load content.json');
+        return await res.json();
+    } catch (err) {
+        console.error(err);
+        return null;
+    }
+}
+
+function renderHeroMeta(meta) {
+    if (!Array.isArray(meta)) return '';
+
+    return meta.map(item => {
+        const values = Array.isArray(item.value) ? item.value : [item.value];
+
+        const valuesHTML = values
+            .map(val => `<div class="meta-value">${val}</div>`)
+            .join('');
+
+        return `
+            <div class="meta-block">
+                <div class="meta-label">${item.label}</div>
+                <div class="meta-values">
+                    ${valuesHTML}
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+function renderHeroTitle(title) {
+    // Optional: if you want "Full Stack || Pen Tester || Game Dev" stacked too
+    // If you prefer it to remain one line, remove this function and the call.
+    const parts = String(title).split('||').map(s => s.trim()).filter(Boolean);
+
+    return parts.map(p => `<div class="hero-title-line">${p}</div>`).join('');
+}
+
+async function renderPortfolioContent() {
+    const data = await loadContent();
+    if (!data) return;
+
+    // HERO META (Roles / Focus / Experience)
+    const metaContainer = document.querySelector('.hero-meta');
+    if (metaContainer) {
+        metaContainer.innerHTML = renderHeroMeta(data.hero.meta);
+    }
+
+    // OPTIONAL: HERO TITLE split into rows instead of showing || in one line
+    const titleEl = document.querySelector('.hero-title');
+    if (titleEl && data.personal?.title) {
+        titleEl.innerHTML = renderHeroTitle(data.personal.title);
+    }
+}
+
+window.addEventListener('DOMContentLoaded', renderPortfolioContent);
+
 
 // Use throttled scroll for performance
 const throttledScroll = throttle(() => {
