@@ -63,16 +63,21 @@ function populateHero() {
     if (heroTitle) heroTitle.textContent = personal.name;
     if (heroSubtitle) heroSubtitle.textContent = personal.tagline;
     
-    // Meta items
-    const metaContainer = document.querySelector('.hero-meta');
-    if (metaContainer) {
-        metaContainer.innerHTML = hero.meta.map(item => `
+   // Meta items (render arrays as rows, no commas)
+const metaContainer = document.querySelector('.hero-meta');
+if (metaContainer) {
+    metaContainer.innerHTML = hero.meta.map(item => {
+        const values = Array.isArray(item.value) ? item.value : [item.value];
+
+        return `
             <div class="meta-item">
                 <span class="meta-label">${item.label}</span>
-                <span class="meta-value">${item.value}</span>
+                ${values.map(v => `<span class="meta-value">${v}</span>`).join('')}
             </div>
-        `).join('');
-    }
+        `;
+    }).join('');
+}
+
     
     // Lede
     const heroLede = document.querySelector('.hero-lede p');
