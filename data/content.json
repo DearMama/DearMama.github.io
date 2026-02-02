@@ -1,0 +1,225 @@
+{
+  "personal": {
+    "name": "Jeffery Adamtey",
+    "title": "Full-Stack Software Engineer || Penetration Tester || Game Developer",
+    "tagline": "Developing Games, Building Production-Ready Software That Solves Real Problems, Ethical Hacking",
+    "email": "Jefferyadamtey@gmail.com",
+    "location": "Hyattsville, Maryland",
+    "github": "DearMama",
+    "githubUrl": "https://github.com/DearMama",
+    "resumePath": "assets/resume.pdf"
+  },
+  "hero": {
+    "byline": {
+      "label": "PROFILE",
+      "date": "2026"
+    },
+    "meta": [
+      {
+        "label": "Roles",
+        "value": ["Full-Stack Software Engineer",
+         "Penetration Tester",
+         "Game Developer"]
+
+     },
+      {
+        "label": "Focus",
+        "value": ["SaaS Development Automation",
+         "Ethical Hacking",
+         "Game Development"]
+      },
+      {
+        "label": "Experience",
+        "value": ["2+ Years",
+         "3+ Years",
+         "5+ Years"
+      ]
+      }
+    ],
+    "lede": "Full-Stack Software Engineer with hands on experience in Game Development and Ethical Hacking, building secure, production-ready solutions that solve real problems."
+  },
+  "about": {
+    "eyebrow": "Background",
+    "title": "About",
+    "intro": "Full-Stack Software Engineer with hands on experience in Game Development and Ethical Hacking, building secure, production-ready solutions that solve real problems.",
+    "paragraphs": [
+      "With 5+ years of experience, I specialize in building <strong>secure, scalable SaaS platforms</strong>. I helped create Keymint.dev, a developer-first licensing system serving enterprise users.",
+      "I also contributed to the development of Puzzle Scout & Africa's Legends, a mobile game app when I was a Game Developer Intern at Leti Arts Ghana."
+    ],
+    "quote": "Building software isn't just about writing code—it's about understanding problems deeply and crafting solutions that stand the test of time.",
+    "skills": [
+      {
+        "title": "Full-Stack Development",
+        "description": [
+          "React",
+          "Next.js",
+          "Node.js",
+          "Python",
+          "TypeScript",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "title": "Game Development",
+        "description": [
+          "Unity",
+          "UI/ HUD Systems",
+          "Unreal Engine",
+          "C# Scripting",
+          "Game Design",
+          "Physics & Collision"
+        ]
+      },
+      {
+        "title": "Security & Systems",
+        "description": [
+          "Cryptography",
+          "Secure Auth",
+          "Licensing Systems",
+          "Distributed Systems"
+        ]
+      },
+      {
+        "title": "Tools & Automation",
+        "description": [
+          "Desktop Apps (PyQt)",
+          "CLI Tools",
+          "Technical SEO",
+          "Git/CI/CD",
+          "Automation Scripts"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Selected Work",
+    "description": "A collection of projects I have contributed to the development of, demonstrating hands-on experience across software development and game development.",
+    "items": [
+      {
+        "featured": true,
+        "title": "Keymint.dev",
+        "subtitle": "Software License Management System",
+        "description": "Secure, scalable licensing infrastructure for developers. Features REST API, vendor dashboard, and real-time analytics.",
+        "link": {
+          "url": "https://keymint.dev",
+          "text": "Visit Keymint.dev"
+        }
+      },
+      {
+        "featured": false,
+        "title": "Leti Arts Development Studios",
+        "subtitle": "Video/Mobile Game Development",
+        "description": "Video game development studio focused on creating immersive experiences for playersSpecializes in mobile and PC platforms, with a portfolio of successful titles.",
+        "link": {
+          "url": "https://www.letiarts.com",
+          "text": "View on GitHub"
+        }
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get In Touch",
+    "title": "Let's Connect",
+    "intro": "Open to new projects and collaborations. Whether you have a product idea or need technical consulting, I'd love to hear from you.",
+    "methods": [
+      {
+        "number": "01",
+        "title": "Email",
+        "value": "JefferyAdamtey@gmail.com",
+        "link": "mailto:JefferyAdamtey@gmail.com"
+      },
+      {
+        "number": "02",
+        "title": "GitHub",
+        "value": "github.com/DearMama",
+        "link": "https://github.com/DearMama"
+      }
+    ],
+    "formTitle": "Send a Message"
+  },
+  "resume": {
+    "objective": "Full-Stack Engineer with 5+ years experience shipping scalable SaaS platforms. Expert in translating business needs into production software.",
+    "experience": [
+      {
+        "title": "Freelance Full-Stack Developer",
+        "company": "Self-Employed",
+        "location": "Remote, Ghana",
+        "period": "2020 - Present",
+        "achievements": [
+          "Delivered 15+ custom web applications and automation tools to clients in over 5 countries.",
+          "Improved client productivity by up to 30% by developing 5+ custom PyQt desktop applications.",
+          "Engineered and integrated secure Stripe billing systems for 8+ platforms.",
+          "Successfully managed over 20 projects across global time zones, maintaining 100% client satisfaction.",
+          "Boosted client organic traffic by an average of 40% through targeted SEO optimizations."
+        ]
+      },
+      {
+        "title": "Founder & Software Engineer",
+        "company": "Keymint.dev",
+        "location": "Remote",
+        "period": "2024 - Present",
+        "achievements": [
+          "Architected a robust licensing backend with a REST API, enabling developers to integrate secure licensing into their applications in minutes.",
+          "Developed a vendor dashboard with real-time analytics, providing valuable insights into license activation and usage patterns.",
+          "Implemented multiple licensing models (perpetual, subscription, trial) to provide flexible options for software developers.",
+          "Designed a self-service customer portal, reducing support overhead and empowering end-users to manage their own licenses.",
+          "Ensured high security and reliability, building trust with a growing base of developers."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "institution": "Ghana Communication Technology University",
+        "location": "Accra, Ghana",
+        "period": "2022 - 2025",
+        "honors": [],
+        "relevant": [
+          "Software Engineering",
+          "Web Development",
+          "Operating Systems",
+          "Databases",
+          "Networking",
+          "Human-Computer Interaction (HCI)",
+          "Cybersecurity"
+        ]
+      }
+    ],
+    "certifications": [],
+    "achievements": [
+      "Published open-source GitHub Email Scraper used by 200+ developers",
+      "Reduced data collection time by 80% for research teams"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      }
+    ],
+    "interests": [
+      "Open Source Contribution",
+      "Technical Writing",
+      "UI/UX Design",
+      "Automation",
+      "Developer Tools"
+    ]
+  },
+  "footer": {
+    "copyright": "2026 Jeffery Adamtey. All rights reserved.",
+    "links": [
+      {
+        "text": "GitHub",
+        "url": "https://github.com/catsika"
+      },
+      {
+        "text": "Email",
+        "url": "mailto:JefferyAdamtey@gmail.com"
+      },
+      {
+        "text": "Resume",
+        "url": "Jeffery_Adamtey_Resume New.pdf"
+      }
+    ]
+  }
+}
