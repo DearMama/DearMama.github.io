@@ -1,0 +1,216 @@
+{
+  "personal": {
+    "name": "Jeffery Adamtey",
+    "title": "Full-Stack Software Engineer || Penetration Tester || Game Developer",
+    "tagline": "Developing Games, Building Production-Ready Software That Solves Real Problems, Ethical Hacking",
+    "email": "Jefferyadamtey@gmail.com",
+    "location": "Hyattsville, Maryland",
+    "github": "DearMama",
+    "githubUrl": "https://github.com/DearMama",
+    "resumePath": "assets/resume.pdf"
+  },
+  "hero": {
+    "byline": {
+      "label": "PROFILE",
+      "date": "2026"
+    },
+    "meta": [
+      {
+        "label": "Roles",
+        "value": "Full-Stack Software Engineer/Penetration Tester/Game Developer"
+      },
+      {
+        "label": "Focus",
+        "value": "SaaS Development & Automation/ Game Development/ Ethical Hacking"
+      },
+      {
+        "label": "Experience",
+        "value": "3+ Years"
+      }
+    ],
+    "lede": "Full-Stack Engineer and SaaS Co-Founder building production-ready software. Co-Creator of Keymint.dev, specializing in secure systems and developer tools."
+  },
+  "about": {
+    "eyebrow": "Background",
+    "title": "About",
+    "intro": "Full-Stack Engineer and SaaS Co-Founder building production-ready software. Co-Creator of Keymint.dev, specializing in secure systems and developer tools.",
+    "paragraphs": [
+      "With 5+ years of experience, I specialize in building <strong>secure, scalable SaaS platforms</strong>. I created Keymint.dev, a developer-first licensing system serving enterprise users.",
+      "I also partner with global clients to deliver high-performance web applications, focusing on clean architecture and optimal user experience."
+    ],
+    "quote": "Building software isn't just about writing code—it's about understanding problems deeply and crafting solutions that stand the test of time.",
+    "skills": [
+      {
+        "title": "Full-Stack Development",
+        "description": [
+          "React",
+          "Next.js",
+          "Node.js",
+          "Python",
+          "TypeScript",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "title": "SaaS & Architecture",
+        "description": [
+          "Stripe Payments",
+          "Database Design",
+          "Cloud Infrastructure",
+          "REST APIs",
+          "Microservices"
+        ]
+      },
+      {
+        "title": "Security & Systems",
+        "description": [
+          "Cryptography",
+          "Secure Auth",
+          "Licensing Systems",
+          "Distributed Systems"
+        ]
+      },
+      {
+        "title": "Tools & Automation",
+        "description": [
+          "Desktop Apps (PyQt)",
+          "CLI Tools",
+          "Technical SEO",
+          "Git/CI/CD",
+          "Automation Scripts"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Selected Work",
+    "description": "A collection of software products and tools I've built, from concept to production.",
+    "items": [
+      {
+        "featured": true,
+        "title": "Keymint.dev",
+        "subtitle": "Software License Management System",
+        "description": "Secure, scalable licensing infrastructure for developers. Features REST API, vendor dashboard, and real-time analytics.",
+        "link": {
+          "url": "https://keymint.dev",
+          "text": "Visit Keymint.dev"
+        }
+      },
+      {
+        "featured": false,
+        "title": "GitHub Email Scraper",
+        "subtitle": "Open Source CLI Tool",
+        "description": "Python CLI for ethically scraping public contributor emails. Reduces manual data collection time by over 80%.",
+        "link": {
+          "url": "https://github.com/catsika/github-email-scraper",
+          "text": "View on GitHub"
+        }
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get In Touch",
+    "title": "Let's Connect",
+    "intro": "Open to new projects and collaborations. Whether you have a product idea or need technical consulting, I'd love to hear from you.",
+    "methods": [
+      {
+        "number": "01",
+        "title": "Email",
+        "value": "atsikaclifford414@gmail.com",
+        "link": "mailto:atsikaclifford414@gmail.com"
+      },
+      {
+        "number": "02",
+        "title": "GitHub",
+        "value": "github.com/catsika",
+        "link": "https://github.com/catsika"
+      }
+    ],
+    "formTitle": "Send a Message"
+  },
+  "resume": {
+    "objective": "Full-Stack Engineer with 5+ years experience shipping scalable SaaS platforms. Expert in translating business needs into production software.",
+    "experience": [
+      {
+        "title": "Freelance Full-Stack Developer",
+        "company": "Self-Employed",
+        "location": "Remote, Ghana",
+        "period": "2020 - Present",
+        "achievements": [
+          "Delivered 15+ custom web applications and automation tools to clients in over 5 countries.",
+          "Improved client productivity by up to 30% by developing 5+ custom PyQt desktop applications.",
+          "Engineered and integrated secure Stripe billing systems for 8+ platforms.",
+          "Successfully managed over 20 projects across global time zones, maintaining 100% client satisfaction.",
+          "Boosted client organic traffic by an average of 40% through targeted SEO optimizations."
+        ]
+      },
+      {
+        "title": "Founder & Software Engineer",
+        "company": "Keymint.dev",
+        "location": "Remote",
+        "period": "2024 - Present",
+        "achievements": [
+          "Architected a robust licensing backend with a REST API, enabling developers to integrate secure licensing into their applications in minutes.",
+          "Developed a vendor dashboard with real-time analytics, providing valuable insights into license activation and usage patterns.",
+          "Implemented multiple licensing models (perpetual, subscription, trial) to provide flexible options for software developers.",
+          "Designed a self-service customer portal, reducing support overhead and empowering end-users to manage their own licenses.",
+          "Ensured high security and reliability, building trust with a growing base of developers."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "institution": "Ghana Communication Technology University",
+        "location": "Accra, Ghana",
+        "period": "2022 - 2025",
+        "honors": [],
+        "relevant": [
+          "Software Engineering",
+          "Web Development",
+          "Operating Systems",
+          "Databases",
+          "Networking",
+          "Human-Computer Interaction (HCI)",
+          "Cybersecurity"
+        ]
+      }
+    ],
+    "certifications": [],
+    "achievements": [
+      "Published open-source GitHub Email Scraper used by 200+ developers",
+      "Reduced data collection time by 80% for research teams"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      }
+    ],
+    "interests": [
+      "Open Source Contribution",
+      "Technical Writing",
+      "UI/UX Design",
+      "Automation",
+      "Developer Tools"
+    ]
+  },
+  "footer": {
+    "copyright": "2026 Jeffery Adamtey. All rights reserved.",
+    "links": [
+      {
+        "text": "GitHub",
+        "url": "https://github.com/catsika"
+      },
+      {
+        "text": "Email",
+        "url": "mailto:atsikaclifford414@gmail.com"
+      },
+      {
+        "text": "Resume",
+        "url": "assets/resume.pdf"
+      }
+    ]
+  }
+}
