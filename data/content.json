@@ -17,22 +17,28 @@
     "meta": [
       {
         "label": "Roles",
-        "value": ["Full-Stack Software Engineer",
-         "Penetration Tester",
-         "Game Developer"]
+        "value": [
+        "Full-Stack Software Engineer",
+        "Penetration Tester",
+        "Game Developer"
+      ]
 
      },
       {
         "label": "Focus",
-        "value": ["SaaS Development Automation",
-         "Ethical Hacking",
-         "Game Development"]
+        "value": 
+        [
+        "SaaS Development Automation",
+        "Ethical Hacking",
+        "Game Development"
+      ]
       },
       {
         "label": "Experience",
-        "value": ["2+ Years",
-         "3+ Years",
-         "5+ Years"
+        "value": [
+        "2+ Years",
+        "3+ Years",
+        "5+ Years"
       ]
       }
     ],
