@@ -1,0 +1,219 @@
+{
+  "personal": {
+    "name": "Jeffery Adamtey",
+    "title": "Cybersecurity Analyst, Full-Stack Engineer, Game Developer",
+    "tagline": "Analyzing threats, securing systems, building production-ready software and developing games.",
+    "email": "JefferyAdamtey@gmail.com",
+    "phone": "240-761-1812",
+    "location": "Washington, D.C.",
+    "github": "DearMama",
+    "githubUrl": "https://github.com/DearMama",
+    "resumePath": "#resume"
+  },
+  "hero": {
+    "byline": {
+      "label": "PROFILE",
+      "date": "2026"
+    },
+    "meta": [
+      {
+        "label": "Roles",
+        "value": [
+        "SOC Analyst || Security Engineering",
+        "Full-Stack Software Developer",
+        "Game Developer"
+      ]
+
+     },
+      {
+        "label": "Focus",
+        "value": [
+        "Cybersecurity & Cryptography/PKI",
+        "SaaS Development & Automation",
+        "Game Design & Development"
+      ]
+      },
+      {
+        "label": "Experience",
+        "value": [
+        "2+ Years",
+        "2+ Years",
+        "4+ Years"
+      ]
+      }
+    ],
+    "lede": "Full-Stack Software Engineer with hands on experience in Game Development and Ethical Hacking, building secure, production-ready solutions that solve real problems."
+  },
+  "about": {
+    "eyebrow": "Background",
+    "title": "About",
+    "intro": "I'm a Cybersecurity Analyst & Full-Stack Software Engineer focused on threat detection, security operations, building secure systems and game development.",
+    "paragraphs": [
+      "With 5+ years of experience, I specialize in building secure, scalable SaaS platforms. I helped create Keymint.dev, a developer-first licensing system serving enterprise users; working on secure API design, authentication, digital signatures, JWT, TLS, and cryptographic license validation. My work emphasizes clean code, maintainability, and user experience. I also contributed to the development of Puzzle Scout & Africa's Legends a mobile game app when I was a Game Developer Intern at Leti Arts Ghana.",
+      "My cybersecurity interests center on SOC operations, threat detection, incident response, network security, cryptography, and PKI. I work with tools and technologies such as Splunk, Microsoft Sentinel, Wireshark, Linux, Python, and OpenSSL to investigate security events, analyze system activity, and strengthen defensive controls."
+    ],
+    "quote": "Every alert tells an interesting story. The challenge is knowing which ones matter.",
+    "skills": [
+      {
+        "title": "Full-Stack Development",
+        "description": ["React", "JavaScript", "Node.js", "Python", "Swift", "Tailwind CSS"]
+      },
+      {
+        "title": "SOC Analyst",
+        "description": ["Threat Intelligence", "Incident Response", "Log Analysis", "Splunk", "Microsoft Sentinel", "SIEM"]
+      },
+      {
+        "title": "Security & Systems",
+        "description": ["Database Design", "Cloud Infrastructure", "REST APIs", "Microservices"]
+      },
+      {
+        "title": "Game Development",
+        "description": ["Gameplay Systems", "C# Scripting", "Physics & Collision", "UI / HUD", "Unity", "Unreal Engine"]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Selected Work",
+    "description": "A collection of projects I have contributed to the development of, demonstrating hands-on experience across software development and game development.",
+    "items": [
+      {
+        "featured": true,
+        "title": "Speika.ai",
+        "subtitle": "AI Translation Messaging",
+        "description": "Messaging that keeps tone, slang, and dialect while translating between languages. Write the way you think, and read replies in your own language.",
+        "link": {
+          "url": "https://speika.ai",
+          "text": "Visit Speika.ai"
+        }
+      },
+      {
+        "featured": true,
+        "title": "Keymint.dev",
+        "subtitle": "Software License Management System",
+        "description": "Developer-first licensing platform with cryptographic signature validation. Supports offline/online modes, serving 100+ active users with enterprise-grade security.",
+        "link": {
+          "url": "https://keymint.dev",
+          "text": "Visit Keymint.dev"
+        }
+      },
+      {
+        "featured": false,
+        "title": "Leti Arts Development Studios",
+        "subtitle": "Video/Mobile Game Development",
+        "description": "Video game development studio focused on creating immersive experiences for players. Specializes in mobile and PC platforms, with a portfolio of successful titles.",
+        "link": {
+          "url": "https://www.letiarts.com",
+          "text": "View Website"
+        }
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get In Touch",
+    "title": "Let's Connect",
+    "intro": "I'm always open to discussing new projects, Game Developers, collaboration opportunities, or simply connecting with fellow developers and entrepreneurs. Whether you have a product idea, need technical consulting, or want to explore working together, I'd love to hear from you.",
+    "methods": [
+      {
+        "number": "01",
+        "title": "Email",
+        "value": "JefferyAdamtey@gmail.com",
+        "link": "mailto:JefferyAdamtey@gmail.com"
+      },
+      {
+        "number": "02",
+        "title": "GitHub",
+        "value": "github.com/DearMama",
+        "link": "https://github.com/DearMama"
+      }
+    ],
+    "formTitle": "Send a Message"
+  },
+  "resume": {
+    "objective": "Cybersecurity Analyst and Full-Stack Software Engineer with skills in SOC operations, threat detection, network security, cryptography, and secure software development. Experienced with Splunk, Microsoft Sentinel, Python, Linux, and modern web technologies.",
+    "experience": [
+      {
+        "title": "Full-Stack Software Developer",
+        "company": "Speika.ai",
+        "location": "",
+        "period": "",
+        "achievements": [
+          "Built Speika.ai, messaging that keeps tone, slang, and dialect while translating between languages. Write the way you think, and read replies in your own language."
+        ]
+      },
+      {
+        "title": "SOC Analyst || Full-Stack Software Developer",
+        "company": "Keymint University Project",
+        "location": "",
+        "period": "Final year project",
+        "achievements": [
+          "Co-founded, designed, and developed Keymint, a scalable licensing management system for generating, validating, and managing software licenses.",
+          "Built APIs for license generation, validation, and revocation, including node-locked licensing."
+        ]
+      },
+      {
+        "title": "Intern Game Developer",
+        "company": "Leti Arts Studio",
+        "location": "Accra, Ghana",
+        "period": "September 2024 – January 2025",
+        "achievements": []
+      },
+      {
+        "title": "Dish Washer, Prep Cook / Front of the House",
+        "company": "Life Alive Cafe West End",
+        "location": "Washington, D.C.",
+        "period": "November 2025 – Present",
+        "achievements": []
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Science, GPA 3.11",
+        "institution": "Ghana Communication Technology University",
+        "location": "Accra, Ghana",
+        "period": "Jan 2022 – Sept 2025",
+        "note": "Final year project: secure, scalable licensing infrastructure for developers. Uses public-key cryptography to issue, validate, and revoke software licenses, with a REST API, vendor dashboard, and real-time analytics."
+      }
+    ],
+    "certifications": [
+      "CompTIA Security+",
+      "CCNA",
+      "TryHackMe"
+    ],
+    "skills": [
+      "Full-Stack Development",
+      "Threat Detection",
+      "Creative Problem-Solving",
+      "Log Analysis",
+      "Vulnerability Assessment",
+      "Cryptography/PKI",
+      "Critical Thinking",
+      "Customer Service"
+    ],
+    "interests": [
+      "Video game design",
+      "Chess",
+      "Ethical Hacking",
+      "Cryptography",
+      "Cinematography",
+      "Football"
+    ]
+  },
+  "footer": {
+    "copyright": "2026 Jeffery Adamtey. All rights reserved.",
+    "links": [
+      {
+        "text": "GitHub",
+        "url": "https://github.com/DearMama"
+      },
+      {
+        "text": "Email",
+        "url": "mailto:JefferyAdamtey@gmail.com"
+      },
+      {
+        "text": "Resume",
+        "url": "#resume"
+      }
+    ]
+  }
+}
