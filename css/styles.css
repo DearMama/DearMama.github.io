@@ -817,30 +817,28 @@ section {
     }
 }
 
-/* Language wave */
+/* Typing caret */
 
-.lang-cycle[lang="zh"] { font-family: "Noto Sans SC", "PingFang SC", sans-serif; }
-.lang-cycle[lang="ja"] { font-family: "Noto Sans JP", "Hiragino Sans", sans-serif; }
-.lang-cycle[lang="ko"] { font-family: "Noto Sans KR", "Apple SD Gothic Neo", sans-serif; }
-.lang-cycle[lang="ar"] { font-family: "Noto Sans Arabic", "Geeza Pro", sans-serif; }
-.lang-cycle[lang="he"] { font-family: "Noto Sans Hebrew", "Arial Hebrew", sans-serif; }
-.lang-cycle[lang="hi"] { font-family: "Noto Sans Devanagari", sans-serif; }
-.lang-cycle[lang="ru"],
-.lang-cycle[lang="el"] { font-family: "Noto Sans", Outfit, sans-serif; }
-
-.lang-cycle.is-wiping {
-    animation: langWipe 0.32s cubic-bezier(0.22, 1, 0.36, 1);
+.is-typing::after {
+    content: "";
+    display: inline-block;
+    width: 0.08em;
+    height: 0.9em;
+    margin-left: 0.08em;
+    background: currentColor;
+    vertical-align: -0.08em;
+    animation: caretBlink 1.05s ease-in-out infinite;
 }
 
-@keyframes langWipe {
-    0% {
-        clip-path: inset(0 100% 0 0);
-        opacity: 0;
+@keyframes caretBlink {
+    0%,
+    42% {
+        opacity: 1;
     }
 
+    58%,
     100% {
-        clip-path: inset(0 0 0 0);
-        opacity: 1;
+        opacity: 0;
     }
 }
 
@@ -940,7 +938,7 @@ section {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .lang-cycle.is-wiping,
+    .is-typing::after,
     .btn,
     #header,
     .project-card::after {
